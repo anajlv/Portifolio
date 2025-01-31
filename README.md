@@ -1,103 +1,77 @@
-O HTML é uma linguagem de marcação.
-Se você colocar ! no início do projeto a página irá fazer a estrutura básica do html.
+# Portfólio Online
 
-<!DOCTYPE html>
+Bem-vindo ao meu portfólio online! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências profissionais e projetos como estudante de desenvolvimento Front-end. Aqui você encontrará informações sobre mim, meu currículo e links para minhas redes sociais e projetos.
 
-línguagem (no caso usamos a pt-br)
-<html lang="pt-br">
+## 🚀 Funcionalidades
 
-<head>
-    caracteres
-    <meta charset="UTF-8">
+- **Página Inicial (Home):**
+  - Apresentação pessoal e profissional.
+  - Links para redes sociais (GitHub, LinkedIn, Instagram).
 
-    faz com que a página esteja sempre em sua versão mais recente no Internet Explorer
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+- **Sobre Mim:**
+  - Descrição detalhada sobre minha trajetória, interesses e motivações no mundo da programação.
 
-    adaptar os tamanhos de acordo com a escala do aparelho
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- **Currículo:**
+  - Experiências profissionais.
+  - Projetos realizados.
+  - Informações acadêmicas.
 
-    título da página, ainda na barra
-    <title>Portifólio</title>
+- **Design Responsivo:**
+  - Layout adaptável para diferentes dispositivos (desktop, tablet, mobile).
 
-    linkar o html com o CSS
-    <link rel="stylesheet" href="style.css">
+## 🛠️ Tecnologias Utilizadas
 
-</head>
-<body>
-    cabeçalho
-    <header></header>(tag semântica)
+- **HTML5:** Estruturação do conteúdo das páginas.
+- **CSS3:** Estilização e design responsivo.
+- **Fontes Google (Poppins):** Tipografia moderna e legível.
+- **Git e GitHub:** Versionamento e hospedagem do código.
 
-    corpo
-    <main> (tag semântica)
-        título, 'texto maior'
-        <h1>AQUI</h1>
+## 🎨 Design e Estilo
 
-        parágrafo, 'texto menor'
-        <p>AQUI</p>
+- **Cores Principais:**
+  - Fundo e elementos em tons de roxo (#4E45A7, #944ed196).
+  - Textos em branco (#fff) para contraste.
 
-                para deixar o texto destacado utiliza-se a tag strong ou span. 
-                A strong irá deixar o texto em negrito e você pode mudar a cor no CSS(1). Pode ser <strong> ou 3 <strong class="descrição">
-                A span deixará em aberto diversas funcionalidades, deixando o texto mais estilizável (2).
+- **Fontes:**
+  - `Poppins` para títulos e textos, proporcionando um visual moderno e clean.
 
-        link, redirecionar
-        <a href="link">AQUI</a> (tag âncora)
+- **Layout:**
+  - Uso de Flexbox para organização dos elementos.
+  - Espaçamento consistente e alinhamento centralizado.
 
-        colocar imagem
-        <img src=img.png alt="Descreva a imagem">
-    </main>(tag semântica)
+## 📂 Estrutura do Projeto
 
-    rodapé
-    <footer></footer>(tag semântica)
-</body>
-</html>
+- **Páginas:**
+  - `index.html`: Página inicial com apresentação e links.
+  - `about.html`: Página "Sobre Mim" com detalhes pessoais.
+  - `curriculum.html`: Página de currículo com experiências e projetos.
 
-O CSS é uma linguagem de estilização, é como o html deve ser exibido na tela.
+- **Arquivos CSS:**
+  - `style.css`: Estilos globais e da página inicial.
+  - `currículo.css`: Estilos específicos para a página de currículo.
 
-O atalho * seleciona todos os conteúdos.
+- **Assets:**
+  - Imagens pessoais e ícones das redes sociais.
 
-*{
-  (define que não terá margem)
-  margin: 0;
+## 🔧 Como Executar o Projeto
 
-  (define que não terá espaço entre borda e conteúdo)
-  padding: 0;
-}
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/anajlv/Portifolio.git
 
-body {
 
-(muda a altura do conteúdo)
-height= 100vh;
+2. **Navegue até a pasta do projeto:**
+```bash
+cd Portifolio
 
-(ajusta a largura do conteúdo para que não saia do limite estabelecido, para saber mais: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
-box-sizing: border-box;
+3. **Abra o projeto:**
+Abra o arquivo index.html no seu navegador para visualizar a página inicial.
 
-(muda a cor de fundo)
-  background-color: rgb(56, 19, 109); 
+🌐 Acesso Online
+O projeto está hospedado no GitHub Pages. Você pode acessá-lo através do link:
+Portfólio Online
 
-(muda a cor da fonte)
-  color: #códigodacor;
-}
+📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-1 (muda a cor do texto entre a tag strong)
-strong {
-    color: #códigodacor;
-}
-(se tiver mais de um strong é necessário atribuir uma classe a ele, isso se faz no HTML3)
-.nomeDaClasse {
-  color: #códigodacor;
-}
-
-2 (estiliza o texto da tag span)
-span{
-        (texto em negito, pode ser outras maneiras ex: italic)
-        font-weight: bold;
-
-        (cor do texto)
-        color: #códigodacor;
-
-        (coloca uma borda colorida no texto)
-        border: 1px solid #códigodacor;
-
-        (define o espaçamento interno)
-        padding: 10px;
-}
+Desenvolvido com 💜 por Ana Júlia Veloso.
