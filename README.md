@@ -66,11 +66,11 @@ Bem-vindo ao meu portfólio online! Este projeto foi desenvolvido para apresenta
 3. **Abra o projeto:**
 Abra o arquivo index.html no seu navegador para visualizar a página inicial.
 
-🌐 Acesso Online
+## 🌐 Acesso Online
 O projeto está hospedado no GitHub Pages. Você pode acessá-lo através do link:
 Portfólio Online
 
-📝 Licença
+## 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 Desenvolvido com 💜 por Ana Júlia Veloso.
