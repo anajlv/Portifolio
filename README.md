@@ -70,7 +70,4 @@ Abra o arquivo index.html no seu navegador para visualizar a página inicial.
 O projeto está hospedado no GitHub Pages. Você pode acessá-lo através do link:
 Portfólio Online
 
-## 📝 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
 Desenvolvido com 💜 por Ana Júlia Veloso.
