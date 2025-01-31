@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --cor-primaria: #B280DE;
+    --cor-secundaria: white;
+    --cor-terciaria: #4E45A7;
+    --cor-quartenaria: #944ed196;
+  }
+  
+  body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+  }
+  
+  .cabeçalho{
+    padding: 2% 0 0 8%;
+  }
+  
+  .cabeçalho__menu {
+    display: flex;
+    gap: 40px;  
+  }
+  
+  .cabeçalho__menu__link {
+    font-size: 15px;
+    color: var(--cor-secundaria);
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    text-decoration: none;
+    width: 100px;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 5px; /* Adiciona um espaçamento interno para melhorar a aparência */
+  }
+
+.cabeçalho__menu__link:hover {
+    background-color: #4f45a78c;
+}
+
+  .curriculo{
+    padding: 2% 0 0 8%;
+  }
+
+  
+.curriculo__infobasica{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+  }
+
+  .curriculo__foto{
+    width: 95%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+}
+
+.curriculo__infobasica__textos {
+    background-color:var(--cor-quartenaria);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-terciaria);
+    margin: 5px;
+    width: 75%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 35px;
+}
+
+.curriculo__titulo{
+    font-size: 25px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.curriculo__subtitulo{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 35px;
+}
+.curriculo__experiencias {
+    background-color: var(--cor-quartenaria);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-terciaria);
+    margin: 5px;
+    width: 90%;
+}
+
+.curriculo__experiencias__primor, .curriculo__experiencias__titulo,
+.curriculo__experiencias__emater,
+.curriculo__experiencias__prefeitura,
+.curriculo__experiencias__estado {
+    margin-bottom: 20px; /* Aumenta o espaçamento entre as experiências */
+}
+
+.curriculo__experiencias__titulo{
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.curriculo__experiencias__subtitulo{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+}
+
+.curriculo__experiencias__paragrafo{
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+}
+
+.curriculo__projetos{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    background-color: var(--cor-quartenaria);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-terciaria);
+    margin: 5px;
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.curriculo__projetos__subtitulo{
+    font-weight: 600;
+}
+
+.curriculo__projetos__link{
+    text-decoration: none;
+    text-transform: none;
+}
+
+.rodapé{
+    background-color: var(--cor-quartenaria);
+    height: 100px; /* Altura do rodapé */
+    font-family: "Poppins", serif;
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column; /* Organiza os parágrafos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 10px 0 -10px 0; /* Ajuste de margem */
+  }
+  
+.rodapé p{  
+   margin: 0;
+  }
+  
+.rodapé__subtitle{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+  }
