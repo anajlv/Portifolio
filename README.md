@@ -67,7 +67,5 @@ Bem-vindo ao meu portfólio online! Este projeto foi desenvolvido para apresenta
 Abra o arquivo index.html no seu navegador para visualizar a página inicial.
 
 ## 🌐 Acesso Online
-O projeto está hospedado no GitHub Pages. Você pode acessá-lo através do link:
-Portfólio Online
-
+O projeto está hospedado no Vercel. Você pode acessá-lo através do link: https://anajuliaveloso-portifolio.vercel.app.
 Desenvolvido com 💜 por Ana Júlia Veloso.
