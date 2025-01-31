@@ -106,6 +106,10 @@
 .curriculo__experiencias__primor, .curriculo__experiencias__titulo,
 .curriculo__experiencias__emater,
 .curriculo__experiencias__prefeitura,
+.curriculo__experiencias__UFMG,
+.curriculo__experiencias__CSMPL,
+.curriculo__experiencias__DEV,
+.curriculo__experiencias__FRONT,
 .curriculo__experiencias__estado {
     margin-bottom: 20px; /* Aumenta o espaçamento entre as experiências */
 }
