@@ -1,0 +1,126 @@
+/*index*/
+@media (max-width: 450px) {
+    
+    .cabeçalho {
+        padding: 10px;
+        margin: 0.5vh;
+    }
+
+    .cabeçalho__menu {
+        display: flex;
+        gap: 2vh;
+        flex-direction: row;
+        justify-content: center; 
+    }
+
+    .cabeçalho__menu__link {
+        font-size: 0.8rem; 
+        width: auto;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .apresentacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__titulo {
+        width: 46vh;
+    }
+
+    .apresentacao__conteudo__subtitulo {
+        font-size: 1.5rem;
+        width: 45vh;
+    }
+
+    .eu {
+        width: 200px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    .cabeçalho {
+        padding: 10px;
+        margin: 0.5vh;
+    }
+
+    .cabeçalho__menu {
+        display: flex;
+        gap: 2vh;
+        flex-direction: row;
+        justify-content: center; 
+    }
+
+    .cabeçalho__menu__link {
+        font-size: 0.8rem; 
+        width: auto;
+        padding: 0.5rem;
+        text-align: center;
+    }
+  
+    .apresentacao__conteudo__titulo {
+        width: 80vh;
+    }
+ 
+    .apresentacao__conteudo__subtitulo {
+        font-size: 1.5rem;
+        width: 78vh;
+    }
+
+    .eu {
+        width: 30vh;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+ 
+    .apresentacao__conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+ 
+    .apresentacao__conteudo__titulo,
+    .apresentacao__conteudo__subtitulo {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    .apresentacao__botao {
+        align-items: center;
+        width: 100%;
+    }
+ 
+    .eu {
+        align-self: center;
+        width: 200px;
+        height: auto;
+        margin-top: 20px;
+    }
+ }
+/*index*/
